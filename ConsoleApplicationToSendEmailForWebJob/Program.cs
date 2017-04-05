@@ -35,9 +35,9 @@ namespace ConsoleApplicationToSendEmailForWebJob
                     HtmlContent = "Hello Sir,<br/>You are selected for final round of interview. Please be present at 11:00AM with original documents. </br><br/>Thanks</br>HR- Allscript"
                 };
 
-                msg.AddBcc(new EmailAddress("devendrac@sfwltd.co.uk", "Devendra Choudhary"));
+                msg.AddCc(new EmailAddress("devendrac@sfwltd.co.uk", "Devendra Choudhary"));
                 //msg.AddBcc(new EmailAddress("shyamv@sfwltd.co.uk", "Shyam Vin"));
-                msg.AddBcc(new EmailAddress("jenitv@sfwltd.co.uk", "Jenit Vagashiya"));
+                msg.AddCc(new EmailAddress("jenitv@sfwltd.co.uk", "Jenit Vagashiya"));
                 //msg.AddTo(new EmailAddress("chiragd@sfwltd.co.uk", "Test User2"));
 
                 /*
