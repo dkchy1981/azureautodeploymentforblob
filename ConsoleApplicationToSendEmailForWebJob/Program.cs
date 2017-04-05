@@ -29,7 +29,7 @@ namespace ConsoleApplicationToSendEmailForWebJob
                 var client = new SendGridClient(apiKey);
                 var msg = new SendGridMessage()
                 {
-                    From = new EmailAddress("hr@allscript.com", "Email Count '" + count.ToString() + "' Congratulation for job interview"),
+                    From = new EmailAddress("nayanhr@allscript.com", "Email Count '" + count.ToString() + "' Congratulation for job interview"),
                     Subject = "Email Count '" + count.ToString() + "' Congratulation for job interview. Modified for autodeployment from GitHub",
                     PlainTextContent = "Hello, Email!",
                     HtmlContent = "Hello Sir,<br/>You are selected for final round of interview. Please be present at 11:00AM with original documents. </br><br/>Thanks</br>HR- Allscript"

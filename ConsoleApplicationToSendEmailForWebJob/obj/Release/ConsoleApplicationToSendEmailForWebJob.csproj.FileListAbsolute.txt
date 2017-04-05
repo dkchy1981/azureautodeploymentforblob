@@ -19,3 +19,4 @@ C:\Practice\Repos\azureautodeploymentforblob\ConsoleApplicationToSendEmailForWeb
 C:\Practice\Repos\azureautodeploymentforblob\ConsoleApplicationToSendEmailForWebJob\bin\Release\Newtonsoft.Json.xml
 C:\Practice\Repos\azureautodeploymentforblob\ConsoleApplicationToSendEmailForWebJob\bin\Release\SendGrid.pdb
 C:\Practice\Repos\azureautodeploymentforblob\ConsoleApplicationToSendEmailForWebJob\bin\Release\SendGrid.xml
+C:\Practice\Repos\azureautodeploymentforblob\ConsoleApplicationToSendEmailForWebJob\obj\Release\ConsoleApplicationToSendEmailForWebJob.csprojResolveAssemblyReference.cache
